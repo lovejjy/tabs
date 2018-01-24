@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.box{
+    width: 450px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+}
+.box ul{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.box ul li{
+    float: left;
+    width: 150px;
+    text-align: center;
+    line-height: 30px;
+}
+.box ol{
+    height: 200px;
+    overflow: hidden;
+}
+.box ol li{
+    width: 100%;
+    line-height: 200px;
+    text-align: center;
+}
